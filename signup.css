@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(200, 220, 237);
+    font-size: xx-large;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+#signup{
+    width: 800px;
+}
+
+.navbar{
+    display: flex;
+    gap: 300px;
+    
+}
+
+@media screen and (max-width:300px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 100px;
+    }
+    
+    
+}
+@media screen and (max-width:300px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 100px;
+    }
+    
+    
+}
+@media screen and (max-width:300px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 100px;
+    }
+    
+    
+}
+@media screen and (max-width:300px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 100px;
+    }
+    
+    
+}

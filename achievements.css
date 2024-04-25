@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    gap: 300px;
+    
+}
+a{
+    text-decoration: none;
+    gap: 100px;
+}
+hr{
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
