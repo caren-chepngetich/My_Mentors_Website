@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    gap: 300px;
+    
+}
+a{
+    text-decoration: none;
+    gap: 100px;
+}
+hr{
+    width: 150px;
+}
+body{
+    
+    background-color: aquamarine;
+    font-size: large;
+}
+
+#container{
+    font-size: larger;
+    padding-top: 100px;
+    text-align: center;
+}
+a{
+    font-size: 50px;
+   
+}
