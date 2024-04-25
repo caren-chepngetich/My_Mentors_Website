@@ -1,9 +1,13 @@
 .navbar{
     display: flex;
-    gap: 300px;
+    gap: 200px;
     
 }
 a{
     text-decoration: none;
     gap: 100px;
+}
+body{
+
+    background-color: rgb(200, 220, 237);
 }

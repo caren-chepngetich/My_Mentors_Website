@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    gap: 300px;
+    gap: 200px;
     
 }
 a{
@@ -11,8 +11,8 @@ hr{
     width: 150px;
 }
 body{
-    
-    background-color: aquamarine;
+
+    background-color: rgb(200, 220, 237);
     font-size: large;
 }
 
