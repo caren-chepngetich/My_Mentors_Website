@@ -22,3 +22,72 @@ h1{
     gap: 300px;
     
 }
+
+@media screen and (max-width:300px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 100px;
+    }
+    
+    
+}
+@media screen and (min-width:351px)and  (max-width:728px){
+    .navbar{
+        display: flex;
+        gap: 30px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    
+    #signup{
+        width: 50px;
+    }
+    
+    
+}
+@media screen and(min-width:671px) and(max-width:972px){
+    .navbar{
+        display: flex;
+        gap: 100px;
+        
+    }
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 10px;
+    }
+    
+    
+}
+@media screen and(min-width:973px) and(max-width:1300px){
+    .navbar{
+        display: flex;
+       
+        
+    }
+    .container{
+      flex-direction: column;
+        gap: 50px;
+    }
+    
+    #signup{
+        width: 10px;
+    }
+    
+    
+}

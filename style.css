@@ -1,3 +1,7 @@
+.container{
+    overflow-x: hidden;
+    margin: 0%;
+}
 .mentor{
     display: flex;
     gap: 300px;
@@ -6,7 +10,7 @@
 
 .navbar{
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
     
 }
 a{
@@ -19,9 +23,50 @@ a{
 }
 body{
     font-size: 20px;
-    background-color: aqua;
+    background-color: rgb(200, 220, 237);
 }
 
 h2{
     padding-top: 100px;
+}
+
+
+@media screen and (max-width:300px){
+    .navbar{
+     flex-wrap: wrap;
+     grid-template-columns: auto;
+    } 
+    .mentor{
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 400px;
+    }
+    .about{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width:301px) and (max-width:667px){
+    .navbar{
+     flex-wrap: wrap;
+     grid-template-columns: auto;
+    } 
+    .mentor{
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 400px;
+    }
+    .about{
+        flex-wrap: wrap;
+
+    }
+    .mentorship{
+        flex-wrap: wrap;
+        font-size: 12px;
+        }
+        
+
 }

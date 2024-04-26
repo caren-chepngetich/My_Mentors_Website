@@ -15,5 +15,50 @@ h1{
 }
 body{
 
-    background-color: rgb(200, 220, 237);
+    background-color: rgb(156, 188, 215);
 }
+
+@media screen and (max-width:300px){
+    .navbar{
+   flex-wrap: wrap;
+       
+        
+    }   
+}
+@media screen and (min-width:301px) and (max-width:667px){
+    .navbar{
+    flex-wrap: wrap;
+       
+        
+    } 
+
+}@media screen and (min-width:668px) and (max-width:997px){
+    .navbar{
+    flex-wrap: wrap;
+       
+        font-size: 10px;
+        
+    }   
+    .mentor{
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width:998px) and (max-width:1300px){
+    body{
+        font-size: 8px;
+        background-color: aqua;
+    }
+    .navbar{
+  flex-wrap: wrap;
+        
+    }   
+    .mentor{
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 50px;
+    }
+}
+
