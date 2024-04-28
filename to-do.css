@@ -1,122 +1,102 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+input{
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
 }
 
-body {
-    background-color: rgb(15, 14, 17);
-    color: rgb(212, 207, 207);
-    font-family: "Poppins", sans-serif;
-    min-height: 100vh;
-    border: 2px solid rgb(212, 207, 207);
-}
-
-header {
-    font-size: 1.5rem;
-}
-
-header, 
-form {
-    min-height: 20vh;
+.navbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 200px;
     
 }
 
-form input, 
-form button {
-    padding: 0.5rem;
-    padding-left: 1rem;
-    font-size: 1.8rem;
-    /* border: none; */
-    background: white;
-    border-radius: 0.4rem;
+#logo{
+    width: 40px;
+}
+b{
+    margin-right: 100px;
+    margin-top: 10px;
 }
 
-form button {
-    color: rgb(10, 10, 8);
-    background: white;
-    cursor: pointer;
-    transition: all 0.3 ease;
-    margin-left: 0.5rem;
-}
-
-form button:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(13, 57, 234);
-}
-
-.fa-plus-circle {
-    margin-top: 0.3rem;
-    margin-left: -8px;
-}
-
-.todo-container {
+.input{
     display: flex;
-    justify-content: center;
+    padding-top: 50px;
     align-items: center;
+    padding-left: 400px;
+    
 }
+body{
+  
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(200, 220, 237);
+    overflow-x: hidden;
 
-.todo-list {
-    min-width: 30%;
+}
+.footer{
+    display: flex;
+    gap: 25%;
+    background-color: rgb(9, 9, 92);
+    color: white;
     list-style: none;
-}
+    height: 250px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: normal;
 
-.todo {
-    margin: 0.5rem;
-    padding-left: 0.5rem;
-    background: rgb(237, 232, 232);
-    color: green;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-    border-radius: 1.7rem;
-}
 
-.todo li {
-    flex: 1;
 }
-.complete-btn {
-    display: none;
+.product{padding-left: 20px;}
+
+#button{
+    height: 50px;
+    border-radius: 30px;
+    width: 200px;
 }
-.trash-btn{
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    font-size: 1.5rem;
+a{
+    text-decoration: none;
+}
+@media screen and (min-width:280px) and (max-width:767px) {
+    .navbar{
+     flex-direction: column;
+     gap: 0%;
+    } 
+
+.input{
+flex-wrap: wrap;
+  display: flex;
+    padding-top: 0px;
+    padding-left: 30px;
+    
     
 }
+.footer{
+   
+  flex-direction: column;
+    gap: 0%;
+    background-color: rgb(9, 9, 92);
+    color: white;
+    list-style: none;
+    height: 380px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: normal;
+    gap: 0%;
+    font-size: 20px;
+    white-space: none;
 
-.complete-btn {
-    background: rgb(0, 8, 255);
+
 }
+body{
+  
+    text-align: center;
+    font-size: large;
+    background-color: rgb(200, 220, 237);
+    overflow-x: hidden;
 
-.trash-btn {
-    border-top-right-radius: 1.75rem;
-    border-bottom-right-radius: 1.75rem;
-    background: rgb(10, 228, 235);
 }
-
-.todo-item {
-    padding: 0rem 0.5rem;
-}
-
-.fa-trash, 
-.fa-check-circle {
-    pointer-events: none;
-}
-
-.completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-}
-
-.slide {
-    transform: translateX(10rem);
-    opacity: 0;
 }

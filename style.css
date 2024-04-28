@@ -1,72 +1,70 @@
-.container{
+body{
+    font-size: 20px;
+    background-color: rgb(200, 220, 237);
+    margin-top: 100px;
+    margin-left: 150px;
+    overflow-x: hidden;
+   
+}
+#logo{
+    width: 40px;
+}
+ .container{
+    display: flex;
+    gap: 200px;
     overflow-x: hidden;
     margin: 0%;
-}
-.mentor{
-    display: flex;
-    gap: 300px;
-    padding-top: 50px;
-}
+} 
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    
-}
 a{
     text-decoration: none;
     gap: 100px;
 }
 
-.about{
-   text-align: center;
-}
-body{
-    font-size: 20px;
-    background-color: rgb(200, 220, 237);
-}
 
 h2{
     padding-top: 100px;
 }
 
-
-@media screen and (max-width:300px){
-    .navbar{
-     flex-wrap: wrap;
-     grid-template-columns: auto;
-    } 
-    .mentor{
-        flex-wrap: wrap;
-    }
-    .image{
-        width: 400px;
-    }
-    .about{
-        flex-wrap: wrap;
-    }
-
+.mentor{
+    width: 80%;
 }
 
-@media screen and (min-width:301px) and (max-width:667px){
-    .navbar{
-     flex-wrap: wrap;
-     grid-template-columns: auto;
+button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 0, 242);
+    border-radius: 30px;
+    color: black;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+
+    .container{
+       flex-direction: column;
+        gap: 0px;
+        margin-top: 10px;
+        margin-bottom: 0%;
     } 
+    body{
+        font-size: px;
+        background-color: rgb(200, 220, 237);
+        margin-top: 0px;
+        margin-left: 0px;
+    }
     .mentor{
-        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 70px;
+        height:550% ;
     }
-    .image{
-        width: 400px;
+    h2{
+        padding-top: 0px;
     }
-    .about{
-        flex-wrap: wrap;
-
+    
+    button{
+        margin-top: 10%;
     }
-    .mentorship{
-        flex-wrap: wrap;
-        font-size: 12px;
-        }
-        
-
 }

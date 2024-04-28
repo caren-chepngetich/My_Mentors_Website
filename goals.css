@@ -1,60 +1,84 @@
 .navbar{
     display: flex;
     gap: 200px;
+font-size: xx-large;
     
 }
 a{
     text-decoration: none;
-    gap: 100px;
+   
+}
+
+#logo{
+    width: 40px;
 }
 body{
 
     background-color: rgb(200, 220, 237);
+    font-size: 30px;
 }
 
-@media screen and (max-width:300px){
-    .navbar{
-     display: flex;
-        gap: 10px;
-        
-    }   
+#goals{
+text-align: center;
 }
-@media screen and (min-width:301px) and (max-width:667px){
+
+.footer{
+    display: flex;
+    gap: 30%;
+    background-color: rgb(9, 9, 92);
+    color: white;
+    list-style: none;
+    height: 220px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    white-space: normal;
+}
+.product{
+    padding-left: 40px;
+}
+@media screen and (min-width:280px) and (max-width:767px) {
     .navbar{
-     display: flex;
-        gap: 10px;
-        
+     flex-direction: column;
+     gap: 0%;
+     font-size:20px ;
+     text-align: center;
     } 
 
-}@media screen and (min-width:668px) and (max-width:997px){
-    .navbar{
-     display: flex;
-        gap: 10px;
-        font-size: 10px;
-        
-    }   
-    .mentor{
-        flex-direction: column;
-        gap: 30px;
-        padding-top: 50px;
-    }
+.input{
+flex-wrap: wrap;
+  display: flex;
+    padding-top: 0px;
+    padding-left: 0px;
+    
+}
+.footer {
+    display: block;
+
+    gap: 0%;
+    background-color: rgb(9, 9, 92);
+    color: white;
+    list-style: none;
+    height: 340px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: normal;
+    gap: 0%;
+    font-size: smaller;
+    width: 66%;
+    text-align: center;
+  }
+  .product {
+    padding-left: 40px;
+  }
+  body{
+
+    background-color: rgb(200, 220, 237);
+    font-size: 20px;
 }
 
-@media screen and (min-width:998px) and (max-width:1300px){
-    body{
-        font-size: 8px;
-        background-color: aqua;
-    }
-    .navbar{
-     display: flex;
-        gap: 10px;
-        font-size: 10px;
-        
-    }   
-    .mentor{
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 50px;
-    }
-}
 
+}

@@ -1,65 +1,105 @@
-body{
-    
-    background-color: rgb(161, 203, 227);
-    font-size: xx-large;
+body {
+  background-color: rgb(161, 203, 227);
+  font-size: xx-large;
 }
 
-.mentor{
-    text-align: center;
-    gap: 200px;
+.mentor {
+  text-align: center;
+  gap: 200px;
 }
 
-.navbar{
+#logo {
+  width: 40px;
+}
+
+.navbar {
   display: flex;
-   gap: 200px;
-  
-    
+  gap: 200px;
+  margin-bottom: 50px;
 }
-a{
+a {
+  text-decoration: none;
+  gap: 100px;
+}
+
+sharon {
+  width: 300px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  gap: 20%;
+  background-color: rgb(9, 9, 92);
+  color: white;
+  list-style: none;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  white-space: normal;
+  margin-top: 30px;
+  /* margin-right: 100px; */
+  margin-left: 0px;
+  justify-content: space-around;
+}
+.product {
+  padding-left: 40px;
+}
+.product {
+  padding-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(161, 203, 227);
+    font-size: smaller;
+  }
+
+  .mentor {
+    text-align: center;
+    gap: 0px;
+  }
+
+  #logo {
+    width: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  a {
     text-decoration: none;
     gap: 100px;
-}
+  }
 
-sharon{
+  sharon {
     width: 300px;
     border-radius: 30px;
-}
+    margin-bottom: 100px;
+  }
+  .footer {
+    display: block;
 
-@media screen and (max-width:300px){
-    .navbar{
-     flex-wrap: wrap;
-     grid-template-columns: auto;
-    } 
-    .mentor{
-        flex-wrap: wrap;
-    }
-    .image{
-        width: 400px;
-    }
-    .about{
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (min-width:301px) and (max-width:667px){
-    .navbar{
-     flex-wrap: wrap;
-     grid-template-columns: auto;
-    } 
-    .mentor{
-        flex-wrap: wrap;
-    }
-    .image{
-        width: 400px;
-    }
-    .about{
-        flex-wrap: wrap;
-
-    }
-    .mentorship{
-        flex-wrap: wrap;
-        font-size: 12px;
-
-    }
+    gap: 0%;
+    background-color: rgb(9, 9, 92);
+    color: white;
+    list-style: none;
+    height: 280px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: normal;
+    gap: 0%;
+    font-size: smaller;
+    width: 66%;
+    text-align: center;
+  }
+  .product {
+    padding-left: 40px;
+  }
 }

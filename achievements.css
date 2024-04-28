@@ -1,64 +1,83 @@
 .navbar{
     display: flex;
-    gap: 200px;
+    gap: 180px;
+    text-align: center;
     
 }
 a{
     text-decoration: none;
-    gap: 100px;
+
 }
-hr{
-    width: 100px;
+#logo{
+    width: 40px;
 }
-h1{
+
+.achievements{
     text-align: center;
 }
+
 body{
-
-    background-color: rgb(156, 188, 215);
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(200, 220, 237);
+}
+.product{
+    padding-left: 20px;
 }
 
-@media screen and (max-width:300px){
-    .navbar{
-   flex-wrap: wrap;
-       
-        
-    }   
+.footer{
+    display: flex;
+    gap: 30%;
+    background-color: rgb(59, 45, 130);
+    color: white;
+    list-style: none;
+    height: 240px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    white-space: normal;
 }
-@media screen and (min-width:301px) and (max-width:667px){
+
+
+
+
+@media screen and (min-width:280px) and (max-width:767px) {
     .navbar{
-    flex-wrap: wrap;
-       
-        
+     flex-direction: column;
+     gap: 0%;
     } 
 
-}@media screen and (min-width:668px) and (max-width:997px){
-    .navbar{
-    flex-wrap: wrap;
-       
-        font-size: 10px;
-        
-    }   
-    .mentor{
-        flex-direction: column;
-        gap: 30px;
-        padding-top: 50px;
-    }
-}
+    .footer {
+        display: block;
+    
+        gap: 0%;
+        background-color: rgb(9, 9, 92);
+        color: white;
+        list-style: none;
+        height: 300px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        white-space: normal;
+        gap: 0%;
+        font-size: smaller;
+        width: 66%;
+        text-align: center;
+      }
+      .product {
+        padding-left: 40px;
+      }
 
-@media screen and (min-width:998px) and (max-width:1300px){
-    body{
-        font-size: 8px;
-        background-color: aqua;
+      body{
+        text-align: center;
+        font-size: 18px;
     }
-    .navbar{
-  flex-wrap: wrap;
-        
-    }   
-    .mentor{
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 50px;
+    .achievements{
+        text-align: center;
+        white-space: none;
     }
+    
 }
-
