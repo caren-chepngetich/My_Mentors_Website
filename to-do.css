@@ -54,13 +54,13 @@ body{
     height: 50px;
     border-radius: 30px;
     width: 200px;
-    margin-left: 2%;
+    /* margin-left: 100px; */
 }
 button{
     height: 50px;
     border-radius: 30px;
     width: 100px; 
-    margin-left: 30px;
+    margin-right: 100px;
     text-decoration-style: solid;
 }
 a{
