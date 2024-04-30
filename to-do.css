@@ -62,15 +62,23 @@ a{
     .navbar{
      flex-direction: column;
      gap: 0%;
+     padding-left: none;
     } 
 
 .input{
-flex-wrap: wrap;
+  flex-wrap: wrap;
   display: flex;
-    padding-top: 0px;
-    padding-left: 30px;
+  padding-top: 0px;
+  padding-left: 30px;
+  width: 20%;
+  height: 30%;
+ 
     
     
+}
+.checkbox{
+    width: 50%;
+    height: 40%;
 }
 .footer{
    
@@ -93,10 +101,16 @@ flex-wrap: wrap;
 }
 body{
   
-    text-align: center;
+    /* text-align: center; */
     font-size: large;
     background-color: rgb(200, 220, 237);
     overflow-x: hidden;
 
+}
+#button{
+    height: 50px;
+    border-radius: 30px;
+    width: 180px;
+    margin-right: 27%;
 }
 }
