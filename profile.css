@@ -40,7 +40,7 @@ sharon {
   white-space: normal;
   margin-top: 30px;
   /* margin-right: 100px; */
-  margin-left: 0px;
+  /* margin-left: 0px; */
   justify-content: space-around;
 }
 .product {
@@ -103,3 +103,133 @@ sharon {
     padding-left: 40px;
   }
 }
+
+@media only screen and (min-width: 601px) and (max-width:1024px){
+  body {
+    background-color: rgb(161, 203, 227);
+    font-size: smaller;
+  }
+
+  .mentor {
+    text-align: center;
+    gap: 0px;
+  }
+
+  #logo {
+    width: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    gap: 100px;
+  }
+
+  sharon {
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+  }
+}
+
+  @media only screen and (min-width: 601px) and (max-width:1024px){
+    body {
+      background-color: rgb(161, 203, 227);
+      font-size: large;
+    }
+  
+    .mentor {
+      text-align: center;
+      gap: 0px;
+    }
+  
+    #logo {
+      width: 15px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      gap: 0px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      gap: 100px;
+    }
+  
+    sharon {
+      width: 300px;
+      border-radius: 30px;
+      margin-bottom: 100px;
+    }
+    .footer {
+      display: flex;
+  
+      gap: 0%;
+      background-color: rgb(9, 9, 92);
+      color: white;
+      list-style: none;
+      height: 200px;
+      margin-top: 40px;
+      padding-top: 50px;
+      padding-left: 0px;
+      padding-right: 10px;
+      white-space: normal;
+      gap: 0%;
+      font-size: x-large;
+      width: 96%;
+      text-align: center;
+    }
+    .product {
+      padding-left: 40px;
+    }
+  
+  
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width:1400px){
+    body {
+      background-color: rgb(161, 203, 227);
+      font-size: xx-large;
+    }
+  
+  
+    .navbar {
+      display: flex;
+      gap: 110px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .footer {
+  display: flex;
+      gap: 0%;
+      background-color: rgb(9, 9, 92);
+      color: white;
+      list-style: none;
+      height: 190px;
+      margin-top: 40px;
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      white-space: normal;
+      gap: 30%;
+      font-size: large;
+      width: 92%;
+      text-align: center;
+    }
+    .product {
+      padding-left: 40px;
+    }
+  }
+  
+
+
+
+
